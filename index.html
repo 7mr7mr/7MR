@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>7MR - تحليل الوجه والنفسية</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#000000">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icon-192.png">
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      color: #00CFFF;
+    }
+    video {
+      margin-top: 20px;
+      border-radius: 10px;
+      border: 2px solid #00CFFF;
+    }
+    #results {
+      margin-top: 20px;
+      font-size: 20px;
+      color: #00CFFF;
+    }
+  </style>
+  <script defer src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <h1>7MR - تحليل وجهك ونفسيتك</h1>
+  <video id="video" width="320" height="240" autoplay muted></video>
+  <div id="results">يتم التحليل الآن...</div>
+</body>
+</html>
